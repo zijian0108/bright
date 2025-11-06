@@ -11,6 +11,9 @@ importers:
 
   .:
     dependencies:
+      '@v3hooks/dialog':
+        specifier: ^1.0.0
+        version: 1.0.0(vue@3.5.22(typescript@5.9.3))
       vue:
         specifier: ^3.5.22
         version: 3.5.22(typescript@5.9.3)
@@ -169,6 +172,11 @@ packages:
 
   '@types/node@24.10.0':
     resolution: {integrity: sha512-qzQZRBqkFsYyaSWXuEHc2WR9c0a0CXwiE5FWUvn7ZM+vdy1uZLfCunD38UzhuB7YN/J11ndbDBcTmOdxJo9Q7A==}
+
+  '@v3hooks/dialog@1.0.0':
+    resolution: {integrity: sha512-M48EMKle4/y4gxCSbpTO5SxeLIySBm9RCvAVR1Ok+7TUwcrVg+16HZAP9Zc404mq5mo4yUG3NdGvgQPS/TVqXw==}
+    peerDependencies:
+      vue: ^3.5.0
 
   '@vitejs/plugin-vue@6.0.1':
     resolution: {integrity: sha512-+MaE752hU0wfPFJEUAIxqw18+20euHHdxVtMvbFcOEpjEyfqXH/5DCoTHiVJ0J29EhTJdoTkjEv5YBKU9dnoTw==}
@@ -545,6 +553,10 @@ snapshots:
   '@types/node@24.10.0':
     dependencies:
       undici-types: 7.16.0
+
+  '@v3hooks/dialog@1.0.0(vue@3.5.22(typescript@5.9.3))':
+    dependencies:
+      vue: 3.5.22(typescript@5.9.3)
 
   '@vitejs/plugin-vue@6.0.1(rolldown-vite@7.1.14(@types/node@24.10.0))(vue@3.5.22(typescript@5.9.3))':
     dependencies:
